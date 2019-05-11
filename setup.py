@@ -44,12 +44,14 @@ except ImportError:
 
 # SETUP VARIABLES #############################################################
 
-from TODO_PYTHON_PACKAGE_NAME import __version__ as VERSION
+from TODO_PYTHON_PACKAGE_NAME import get_version
+
+VERSION = get_version()
 
 AUTHOR_NAME = 'TODO_AUTHOR_NAME'
 AUTHOR_EMAIL = 'TODO_AUTHOR_EMAIL'
 
-PYTHON_PACKAGE_NAME = 'TODO_PYTHON_PACKAGE_NAME'
+PYPI_PACKAGE_NAME = 'TODO_PYTHON_PACKAGE_NAME'
 PROJECT_SHORT_DESC = 'TODO_PROJECT_SHORT_DESC'
 PROJECT_WEB_SITE_URL = 'TODO_PROJECT_WEB_SITE_URL'
 
@@ -111,7 +113,7 @@ setup(author=AUTHOR_NAME,
       maintainer=AUTHOR_NAME,
       maintainer_email=AUTHOR_EMAIL,
 
-      name=PYTHON_PACKAGE_NAME,
+      name=PYPI_PACKAGE_NAME,
       description=PROJECT_SHORT_DESC,
       long_description=get_long_description(),
       url=PROJECT_WEB_SITE_URL,
@@ -126,7 +128,7 @@ setup(author=AUTHOR_NAME,
 
       install_requires=INSTALL_REQUIRES,
       #platforms=['Linux'],
-      #requires=['pyserial'],
+      #requires=[],
 
       scripts=SCRIPTS,
       entry_points=ENTRY_POINTS,

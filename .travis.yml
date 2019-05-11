@@ -1,0 +1,10 @@
+language: python
+
+python:
+    - 3.6
+
+install:
+    - pip install TODO_PYTHON_PACKAGE_NAME
+
+script:
+    - ./run_tests.sh

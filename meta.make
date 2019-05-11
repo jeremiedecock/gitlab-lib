@@ -1,2 +1,2 @@
 PYTHON_PACKAGE_NAME=TODO_PYTHON_PACKAGE_NAME
-HTML_TMP_DIR=docs/_build/html/
+HTML_TMP_DIR=build/sphinx/html

@@ -1,24 +1,19 @@
-# The MIT License
-#
-# TODO_COPYRIGHT_NOTICE
-#
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-# THE SOFTWARE.
+"""TODO_PROJECT_NAME
+
+TODO_PROJECT_SHORT_DESC
+
+Note:
+
+    This project is in beta stage.
+
+Viewing documentation using IPython
+-----------------------------------
+To see which functions are available in `TODO_PYTHON_PACKAGE_NAME`, type ``TODO_PYTHON_PACKAGE_NAME.<TAB>`` (where
+``<TAB>`` refers to the TAB key), or use ``TODO_PYTHON_PACKAGE_NAME.*get_version*?<ENTER>`` (where
+``<ENTER>`` refers to the ENTER key) to narrow down the list.  To view the
+docstring for a function, use ``TODO_PYTHON_PACKAGE_NAME.get_version?<ENTER>`` (to view the
+docstring) and ``TODO_PYTHON_PACKAGE_NAME.get_version??<ENTER>`` (to view the source code).
+"""
 
 # PEP0440 compatible formatted version, see:
 # https://www.python.org/dev/peps/pep-0440/
@@ -37,5 +32,8 @@
 # 'X.Y.dev0' is the canonical version of 'X.Y.dev'
 #
 __version__ = '0.1.dev0'
+
+def get_version():
+    return __version__
 
 __all__ = ['TODO']

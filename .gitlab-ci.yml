@@ -1,0 +1,25 @@
+image: continuumio/miniconda3:latest
+
+before_script:
+- apt-get update -q -y
+- apt-get install -y build-essential
+- export PIP_CACHE_DIR="/opt/cache/pip"
+- conda env create -f environment.yml
+- source activate TODO_PYTHON_PACKAGE_NAME-dev
+- python3 setup.py develop
+
+pages:
+  stage: deploy
+  script:
+  - make doc
+  - mv build/sphinx/html/ public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+
+test:
+  stage: test
+  script:
+  - pytest
