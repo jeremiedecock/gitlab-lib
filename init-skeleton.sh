@@ -88,7 +88,7 @@ sed -i "" \
     LICENSE \
     meta.make \
     README.rst \
-    setup.py \
+    setup.cfg \
     docs/api.rst \
     docs/conf.py \
     docs/developer.rst \

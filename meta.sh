@@ -2,7 +2,7 @@ AUTHOR_NAME="Jérémie DECOCK"
 AUTHOR_EMAIL="jd.jdhp@gmail.com"
 AUTHOR_WEB_SITE="www.jdhp.org"
 
-COPYRIGHT_NOTICE="Copyright (c) 2019 ${AUTHOR_NAME} (${AUTHOR_WEB_SITE})"
+COPYRIGHT_NOTICE="Copyright (c) 2022 ${AUTHOR_NAME} (${AUTHOR_WEB_SITE})"
 
 PROJECT_INITIAL_DATE="YYYY-MM-DD"          # TODO
 PROJECT_SHORT_DESC="TODO"                  # TODO one line
