@@ -1,4 +1,4 @@
-.. currentmodule:: TODO_PYTHON_PACKAGE_NAME
+.. currentmodule:: gitlablib
 
 ============
 Introduction

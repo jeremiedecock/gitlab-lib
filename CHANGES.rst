@@ -1,6 +1,6 @@
 Changelog
 =========
 
-0.1 (TODO_PROJECT_INITIAL_DATE)
+0.1 (2022-05-24)
 ----------------
 

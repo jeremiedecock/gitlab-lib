@@ -1,4 +1,4 @@
-.. currentmodule:: TODO_PYTHON_PACKAGE_NAME
+.. currentmodule:: gitlablib
 
 =================
 Developer's notes
@@ -17,7 +17,7 @@ Getting Started For Developers
 .. warning::
 
    the following guide is used only if you want to *develop* the
-   `TODO_PYTHON_PACKAGE_NAME` package. If you just want to write code that uses it
+   `gitlablib` package. If you just want to write code that uses it
    externally, you should rather install it as explained
    :ref:`there <introduction_section>`.
 
@@ -33,12 +33,12 @@ Step 1: Set up your package environment
 
 .. TODO: explain the same things with the native venv alternative
 
-In your terminal, change to the directory where you cloned `TODO_PYTHON_PACKAGE_NAME`, and type::
+In your terminal, change to the directory where you cloned `gitlablib`, and type::
 
     conda env create -f environment.yml
 
-This will create a conda virtual environment called `TODO_PYTHON_PACKAGE_NAME-dev` with all
-the TODO_PROJECT_NAME dependencies and a few useful packages for development and
+This will create a conda virtual environment called `gitlablib-dev` with all
+the Python Client for GitLab dependencies and a few useful packages for development and
 interaction.
 
 If you want to give a different name to this environment, replace the previous
@@ -55,8 +55,8 @@ created with the following command::
 
 Next, switch to this new virtual environment:
 
-* On Windows, in your Anaconda Prompt, run ``activate TODO_PYTHON_PACKAGE_NAME-dev``
-* On MacOSX and Linux, in your Terminal, run ``source activate TODO_PYTHON_PACKAGE_NAME-dev``
+* On Windows, in your Anaconda Prompt, run ``activate gitlablib-dev``
+* On MacOSX and Linux, in your Terminal, run ``source activate gitlablib-dev``
 
 You will need to type that last command any time you open a new
 terminal to activate the virtual environment (you can of course
@@ -68,9 +68,9 @@ dependencies).
 If you want to see the list of packages installed in the virtual environment,
 type::
 
-    conda list -n TODO_PYTHON_PACKAGE_NAME-dev
+    conda list -n gitlablib-dev
 
-If later you want to leave the `TODO_PYTHON_PACKAGE_NAME-dev` virtual environment:
+If later you want to leave the `gitlablib-dev` virtual environment:
 
 * On Windows, in your Anaconda Prompt, run ``deactivate``
 * On MacOSX and Linux, in your Terminal, run ``source deactivate``
@@ -78,19 +78,19 @@ If later you want to leave the `TODO_PYTHON_PACKAGE_NAME-dev` virtual environmen
 Also if you want to completely remove this environment from your system, you
 can type::
 
-    conda remove --name TODO_PYTHON_PACKAGE_NAME-dev --all
+    conda remove --name gitlablib-dev --all
 
 See https://conda.io/docs/user-guide/tasks/manage-environments.html for more
 information on Anaconda virtual environments.
 
-Step 2: Setup TODO_PROJECT_NAME for development
+Step 2: Setup Python Client for GitLab for development
 +++++++++++++++++++++++++++++++++++
 
 Now setup this cloned version for development. The following command
-will make symlinks in your python library directory to your TODO_PROJECT_NAME
+will make symlinks in your python library directory to your Python Client for GitLab
 installation (it creates a `.pth` file, there is no need to set
 PYTHONPATH, in fact it should be blank to avoid other problems). From
-then on, all the TODO_PROJECT_NAME binaries and the library itself will be
+then on, all the Python Client for GitLab binaries and the library itself will be
 usable from anywhere.
 
 For Linux/MacOSX users, type::
@@ -112,7 +112,7 @@ Bug reports
 
 To search for bugs or report them, please use the Bug Tracker at:
 
-    TODO_PROJECT_ISSUE_TRACKER_URL
+    https://github.com/jdhp/gitlab-lib/issues
 
 Contribute
 ~~~~~~~~~~
@@ -150,7 +150,7 @@ Changes
 .. ......................................................................... ..
 
 .. _MIT license: https://opensource.org/licenses/MIT
-.. _available on GitHub: TODO_PROJECT_GITHUB_URL
+.. _available on GitHub: https://github.com/jdhp/gitlab-lib
 .. _PEP8: https://www.python.org/dev/peps/pep-0008/
 .. _PEP257: https://www.python.org/dev/peps/pep-0257/
 .. _PEP287: https://www.python.org/dev/peps/pep-0287/
@@ -159,4 +159,4 @@ Changes
 .. _doctest: https://docs.python.org/3/library/doctest.html
 .. _pylint: http://www.pylint.org/
 .. _pyflakes: https://pypi.python.org/pypi/pyflakes
-.. _TODO.md: TODO_PROJECT_GITHUB_URL/blob/master/TODO.md
+.. _TODO.md: https://github.com/jdhp/gitlab-lib/blob/master/TODO.md

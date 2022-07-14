@@ -1,24 +1,24 @@
-====
-TODO_PROJECT_NAME
-====
+========================
+Python Client for GitLab
+========================
 
-TODO_COPYRIGHT_NOTICE
+Copyright (c) 2022 Jérémie DECOCK (www.jdhp.org)
 
-* Web site: TODO_PROJECT_WEB_SITE_URL
-* Online documentation: TODO_PROJECT_ONLINE_DOCUMENTATION_URL
-* Examples: TODO_PROJECT_ONLINE_DOCUMENTATION_URL/gallery/
+* Web site: http://www.jdhp.org/software_en.html#gitlablib
+* Online documentation: http://gitlablib.readthedocs.org
+* Examples: http://gitlablib.readthedocs.org/gallery/
 
-* Notebooks: TODO_PROJECT_GITHUB_URL-notebooks
-* Source code: TODO_PROJECT_GITHUB_URL
-* Issue tracker: TODO_PROJECT_ISSUE_TRACKER_URL
-* TODO_PROJECT_NAME on PyPI: TODO_PROJECT_PYPI_URL
-* TODO_PROJECT_NAME on Anaconda Cloud: https://anaconda.org/jdhp/TODO_PYTHON_PACKAGE_NAME
+* Notebooks: https://github.com/jdhp/gitlab-lib-notebooks
+* Source code: https://github.com/jdhp/gitlab-lib
+* Issue tracker: https://github.com/jdhp/gitlab-lib/issues
+* Python Client for GitLab on PyPI: https://pypi.org/project/gitlablib
+* Python Client for GitLab on Anaconda Cloud: https://anaconda.org/jdhp/gitlablib
 
 
 Description
 ===========
 
-TODO_PROJECT_SHORT_DESC
+An unofficial Python 3 client for the GitLab API
 
 Note:
 
@@ -38,20 +38,20 @@ Installation
 Gnu/Linux
 ---------
 
-You can install, upgrade, uninstall TODO_PROJECT_NAME with these commands (in a
+You can install, upgrade, uninstall Python Client for GitLab with these commands (in a
 terminal)::
 
-    pip install --pre TODO_PYTHON_PACKAGE_NAME
-    pip install --upgrade TODO_PYTHON_PACKAGE_NAME
-    pip uninstall TODO_PYTHON_PACKAGE_NAME
+    pip install --pre gitlablib
+    pip install --upgrade gitlablib
+    pip uninstall gitlablib
 
-Or, if you have downloaded the TODO_PROJECT_NAME source code::
+Or, if you have downloaded the Python Client for GitLab source code::
 
     python3 setup.py install
 
 .. There's also a package for Debian/Ubuntu::
 .. 
-..     sudo apt-get install TODO_PYTHON_PACKAGE_NAME
+..     sudo apt-get install gitlablib
 
 Windows
 -------
@@ -62,14 +62,14 @@ Windows
 ..     3.4 under Windows 7.
 ..     It should also work with recent Windows systems.
 
-You can install, upgrade, uninstall TODO_PROJECT_NAME with these commands (in a
+You can install, upgrade, uninstall Python Client for GitLab with these commands (in a
 `command prompt`_)::
 
-    py -m pip install --pre TODO_PYTHON_PACKAGE_NAME
-    py -m pip install --upgrade TODO_PYTHON_PACKAGE_NAME
-    py -m pip uninstall TODO_PYTHON_PACKAGE_NAME
+    py -m pip install --pre gitlablib
+    py -m pip install --upgrade gitlablib
+    py -m pip uninstall gitlablib
 
-Or, if you have downloaded the TODO_PROJECT_NAME source code::
+Or, if you have downloaded the Python Client for GitLab source code::
 
     py setup.py install
 
@@ -82,14 +82,14 @@ MacOSX
 ..     3.5 under MacOSX 10.9 (*Mavericks*).
 ..     It should also work with recent MacOSX systems.
 
-You can install, upgrade, uninstall TODO_PROJECT_NAME with these commands (in a
+You can install, upgrade, uninstall Python Client for GitLab with these commands (in a
 terminal)::
 
-    pip install --pre TODO_PYTHON_PACKAGE_NAME
-    pip install --upgrade TODO_PYTHON_PACKAGE_NAME
-    pip uninstall TODO_PYTHON_PACKAGE_NAME
+    pip install --pre gitlablib
+    pip install --upgrade gitlablib
+    pip uninstall gitlablib
 
-Or, if you have downloaded the TODO_PROJECT_NAME source code::
+Or, if you have downloaded the Python Client for GitLab source code::
 
     python3 setup.py install
 
@@ -97,8 +97,8 @@ Or, if you have downloaded the TODO_PROJECT_NAME source code::
 Documentation
 =============
 
-* Online documentation: TODO_PROJECT_ONLINE_DOCUMENTATION_URL
-* API documentation: TODO_PROJECT_ONLINE_API_DOCUMENTATION_URL
+* Online documentation: http://gitlablib.readthedocs.org
+* API documentation: http://gitlablib.readthedocs.org/en/latest/api.html
 
 
 Example usage
@@ -110,9 +110,9 @@ TODO
 Bug reports
 ===========
 
-To search for bugs or report them, please use the TODO_PROJECT_NAME Bug Tracker at:
+To search for bugs or report them, please use the Python Client for GitLab Bug Tracker at:
 
-    TODO_PROJECT_ISSUE_TRACKER_URL
+    https://github.com/jdhp/gitlab-lib/issues
 
 
 License

@@ -5,7 +5,7 @@ before_script:
 - apt-get install -y build-essential
 - export PIP_CACHE_DIR="/opt/cache/pip"
 - conda env create -f environment.yml
-- source activate TODO_PYTHON_PACKAGE_NAME-dev
+- source activate gitlablib-dev
 - python3 setup.py develop
 
 pages:

@@ -4,7 +4,7 @@ python:
     - 3.6
 
 install:
-    - pip install TODO_PYTHON_PACKAGE_NAME
+    - pip install gitlablib
 
 script:
     - ./run_tests.sh
