@@ -76,6 +76,40 @@ class GitLab:
         else:
             raise ValueError("All parameters are set to None ; at least one parameter have to be set.")
 
+
+    def update_issue_labels(self, gitlab_project_id, gitlab_issue_iid, remove_labels, add_labels):
+        # https://docs.gitlab.com/ee/api/issues.html#edit-issue
+
+        # REMOVE FORMER LABELS ##################
+
+        request_params_str = f"remove_labels={urllib.parse.quote(remove_labels)}"            # urlencodé
+        gitlab_request_url = f"{self.gitlab_host}/api/v4/projects/{gitlab_project_id}/issues/{gitlab_issue_iid}?{request_params_str}"
+        print(gitlab_request_url)
+
+        resp = requests.put(gitlab_request_url, headers=self.request_header)
+
+        if resp.status_code != 200:
+            raise Exception("Error:" + resp.text)
+
+        resp_remove_dict = json.loads(resp.text)
+
+        # ADD NEW LABELS ########################
+
+        request_params_str = f"add_labels={urllib.parse.quote(add_labels)}"            # urlencodé
+        gitlab_request_url = f"{self.gitlab_host}/api/v4/projects/{gitlab_project_id}/issues/{gitlab_issue_iid}?{request_params_str}"
+        print(gitlab_request_url)
+
+        resp = requests.put(gitlab_request_url, headers=self.request_header)
+
+        if resp.status_code != 200:
+            raise Exception("Error:" + resp.text)
+
+        resp_add_dict = json.loads(resp.text)
+
+        ###
+
+        return resp_remove_dict, resp_add_dict
+
     
     def _gitlab_get_request(self, get_url):
         """
